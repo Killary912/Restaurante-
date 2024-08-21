@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 95px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+
+#home {
+    width: 100%;
+    background-image: url("../img/c1.jpg");
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#menu{
+    background-color: rgb(228, 231, 231);
+}
+
+#menu-img{
+    width: 100%;
+    background-image: url("../img/c3.jpg");
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#sobre-nos {
+    background-color: rgb(228, 231, 231);
+
+}
+
+#ambiente {
+    width: 100%;
+    background-image: url("../img/c2.jpg");
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#contato {
+    background-color: rgb(228, 231, 231);
+}
+
+.parallax {
+    min-height: 500px;
+    min-width: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alinhamento {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
